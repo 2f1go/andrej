@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Якутский Филворд</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img width="250px" src="Без названия488_20250302092212.png">
+    <p>Найдите все слова на якутском языке, соединяя буквы змейкой.</p>
+
+    <canvas id="gameCanvas" width="400" height="400"></canvas>
+
+    <div id="wordList">
+        <!-- Список слов будет добавлен сюда динамически через JavaScript -->
+    </div>
+
+    <p>Найдено: <span id="foundCount">0</span> из <span id="totalCount">0</span></p>
+
+    <button id="resetButton">Сброс</button>
+
+    <script src="words.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

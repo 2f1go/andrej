@@ -1,0 +1,53 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #303030;
+    color: white;
+}
+
+h1 {
+    color: #b3b3b3;
+    margin-bottom: 20px;
+}
+
+#gameCanvas {
+    border: 2px solid #555;
+    background-color: #fff;
+    cursor: pointer;
+    font-family: "Arial Unicode MS", sans-serif; /* Важно для якутских букв */
+}
+
+#wordList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#wordList p {
+    padding: 5px 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #eee;
+    color: #333;
+}
+
+#wordList p.found {
+    text-decoration: line-through;
+    color: gray;
+}
+
+#resetButton {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
